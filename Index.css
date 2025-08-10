@@ -1,0 +1,42 @@
+/* General styling for the box */
+.box {
+    background-color: #ffffff; /* Clean white for a formal look */
+    border: 3px solid #4a90e2; /* Subtle blue for a professional feel */
+    border-radius: 10px; /* Smooth corners for a modern touch */
+    padding: 25px; /* Slightly increased padding for a spacious look */
+    margin: 20px auto; /* Balanced spacing */
+    max-width: 450px; /* Slightly wider for better content fit */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    font-family: 'Arial', sans-serif; /* Clean, professional font */
+    color: #333; /* Dark text for contrast and readability */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effects */
+}
+
+/* Hover effect for the box */
+.box:hover {
+    transform: translateY(-5px); /* Subtle lift effect */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25); /* Enhanced shadow on hover */
+}
+
+/* Main container styling */
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px; /* Added padding for space around content */
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); /* Professional shadow */
+    background: linear-gradient(135deg, #4a90e2, #0056b3); /* Gradient for a dynamic feel */
+}
+
+
+
+/* Optional: Add responsiveness */
+@media (max-width: 768px) {
+    .box {
+        max-width: 90%; /* Adjust width for smaller screens */
+    }
+    .mainContainer {
+        padding: 15px; /* Reduced padding for smaller screens */
+    }
+}
